@@ -1,8 +1,8 @@
 var looperLetter = prompt('Give me a letter!');
 
-var i;
+var counter;
 
-for (i = 0; i < 10; i++) {
+for (counter = 0; counter < 10; counter++) {
   document.write(looperLetter);
   document.write('<br>');
 }
